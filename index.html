@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="css/page1.css">
+  <head>
+    <meta name="description" content="Webpage description goes here" />
+    <meta charset="utf-8" />
+    <title>Team Dotmagic | Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  
+  <header class="header">
+    <div id="mode-1" class="mode" style="display: none;">
+      <div class="big" id="bold">⚠ Service Interruption : Too Much Traffic</div>
+      <div class="mid">We are keeping our eyes on service interruption as above.</div>
+      <div class="small">Alerted Since 4am, Today</div>
+      <hr>
+    </div>
+    
+    <nav class="navbar">
+      <a href="/index.html" class="logo">
+        <img src="image/teamdotmagic-blackMagic.png" width="13%" />
+      </a>
+      
+      <ul class="nav-links">
+        <li class="nav-item"><a href="#">About Us</a></li>
+        <li class="nav-item"><a href="/lounge.html">Member Lounge</a></li>
+        <li class="nav-item"><a href="/project tiles.html">Project Tiles</a></li>
+        <li class="nav-item"><a href="/login.html">Site Login</a></li>
+      </p>
+    </nav>
+  </header>
+  
+  <body>
+    <div id="mode-2" class="mode" style="display: none;">
+      <img id="mode-con" src="/image/cutblack.png">
+      <div class="big" id="bold">⛔ Service Not Available ⛔</div>
+      <div class="mid">January Normal Service Checkup [Jan 1 11pm -]</div>
+      <div class="mode-status">
+          <img src="/image/loading-gif-icon-20.jpg" style="width: 35px; margin-top: 20px; margin-bottom: 20px; margin-right: 10px;">
+          <div>About 10 Minutes Left...</div>
+      </div>
+      <div class="small">any urgent contacts can be made through button below.</div>
+      <div style="display: flex; justify-content: space-around; margin: 10px; width: 200px; margin-left: auto; margin-right: auto;">
+        <button>Urgent Contact</button>
+        <button>BXWI</button>
+      </div>
+    </div>
+    
+    <div id="overlay">
+      <div id="warn-title">
+        <p id="warning-main">⚠ Site may have errors in operation</p>
+      </div>
+      <div class="alert">
+        <p>The window you've opened this site is too narrow!</p>
+        &nbsp;
+        <p style="color: red; font-weight: bold;">This site requires at least 1000px of window to be operated successfully.</p>
+      </div>
+      <div id="exit" onclick="off()"><button>PROCEED</button></div>
+    </div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container" id="canvas">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img
+          src="image/christmas-tree-minecraft-hd-wallpaper-uhdpaper.com-617@0@h.jpg"
+          style="width: 100%"
+        />
+        <div class="text1">Minecraft Official [Christmas Tree] Concept Art</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img
+          src="image/minecraft-house-night-scenery-hd-wallpaper-uhdpaper.com-99@0@h.jpg"
+          style="width: 100%"
+        />
+        <div class="text">Minecraft Official [Night Scenery] Concept Art</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="image/minecraft-uhdpaper.com-hd-8.2239.jpg" style="width: 100%" />
+        <div class="text">
+          Minecraft Official [MC 1.16.5 The Nether Update] Concept Art
+        </div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div id="vvm" style="text-align: center; position: relative; bottom: 35px">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="server-status">
+      <div id="nbox">
+        <p>All Systems Operational</p>
+      </div>
+      <div id="wbox" style="display: none;">
+        <p>Level 1 : Monitoring in progress</p>
+      </div>
+      <div id="mbox" style="display: none;">
+        <p>Level 2 : Serious Problem needs to be checked *Immediately*</p>
+      </div>
+      <div id="ubox" style="display: none;">
+        <p>Level 3 : Shut-Down server **IMMEDIATELY**</p>
+      </div>
+      <div id="uxbox" style="display: none;">
+        <p>[EMERGENCY]🛡 Automatic-System has Locked down Every Server</p>
+      </div>
+    </div>
+
+    <div class="feed" id="feed" >
+      <div class="news main-content">
+        <div class="new">
+          <div class="info">
+            <p id="title">서버 정기 점검 안내</p>
+            <p id="date">2023년 1월 5일</p>
+          </div>
+          <img src="image/murder-fixes-update.png" />
+          <div class="text">
+            <p>
+              안녕하세요! Team_Dotmagic 사이트 관리/운영을 맡은
+              one_week_hacker67 입니다!
+            </p>
+            <br />
+            <p>지금 사이트 테스트중입니다!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sub-content">
+        <div class="tools">
+          <div class="social">
+            <title>Official Social Media</title>
+          </div>
+          <div class="links">
+            <img src="image/2021_Facebook_icon.png" />
+            <img src="image/Instagram_icon.png" />
+            <img src="image/Twitter-Icon-Background-PNG-Image.png" />
+          </div>
+        </div>
+        <div class="best">
+          <div class="recent">
+            <title>Recent Threads</title>
+          </div>
+          <div class="list">
+            <p>recent_thread_1</p>
+            <p>recent_thread_2</p>
+            <p>recent_thread_3</p>
+            <p>recent_thread_4</p>
+            <p>recent_thread_5</p>
+            <p>recent_thread_6</p>
+          </div>
+          <div class="things">
+            <button>Pin Board</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dsc">
+      <hr />
+      <img id="ad01" src="image/b_img01.jpg" />
+      <p>Team Dotmagic 공식 후원사 삼다수</p>
+      <hr />
+    </div>
+
+    <div id="tail">
+      <p>All Rights Reserved - Team_Dotmagic@2023</p>
+      <p style="margin-top: -1em; font-size: 10px">
+        사이트 관리/운영: one_week_hacker67
+      </p>
+    </div>
+  </body>
+
+  <script src="script/script.js"></script>
+</html>
