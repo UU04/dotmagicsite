@@ -3,6 +3,14 @@
   src: url("./font/강원교육모두-Bold.woff") format("woff");
 }
 
+p.indent {
+  text-indent: 40px;
+}
+
+p.bold {
+  font-weight: bold;
+}
+
 html,
 body {
   width: 100%;
@@ -446,24 +454,29 @@ hr {
 
 .new .text {
   color: #000000;
-  margin-left: 7.5%;
+  margin-left: 2.5%;
+  margin-right: 2%;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .new .text p {
   margin: 0;
+  margin-top: 10px;
 }
 
 .news .new .info #title::before {
   content: "NEW";
   color: white;
-  background-color: red;
+  font-weight: bold;
+  background-color: rgb(255, 187, 0);
   width: 40px;
   padding: 3 6px;
   padding-left: 5px;
   padding-right: 5px;
   margin: 0 5px;
-  margin-right: 5px;
+  padding-bottom: 2px;
+  margin-right: 15px;
   border-radius: 4px;
   text-align: center;
 }

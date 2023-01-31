@@ -1,10 +1,14 @@
 // CONFIG
 
-emerg = 1 ;
+emerg = 0 ;
 //normal : 0 | monioring : 1 | EMERGENCY : 2 | Back-EMERG : 3
 //monitoring mode -> MONITORING IN PROGRESS
 //EMERGENCY mode -> blockes all users from normal options
 //Back-EMERG mode -> blockes all users from any database-related options(Login, Pin Board(Lounge))
+
+//
+resizelimit= 1200;
+//
 
 if(emerg != 0) {
   document.getElementById('nbox').style.display = "none";
@@ -66,10 +70,10 @@ function off() {
 }
 
 function widthFx() {
-  if(window.innerWidth <1000){
+  if(window.innerWidth <resizelimit){
     on();
   }
-  if(window.innerWidth >= 1000){
+  if(window.innerWidth >= resizelimit){
     off();
   }
 }
