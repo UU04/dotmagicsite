@@ -85,7 +85,7 @@ p.indent {
 .deco {
   text-align: center;
   color: rgb(0, 0, 0);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .deco .container {
@@ -125,7 +125,7 @@ p.indent {
 /* tiles the whole div configuration */
 
 .tiles {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;

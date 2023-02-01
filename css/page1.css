@@ -21,33 +21,39 @@ body {
 }
 
 #overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.226); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  background-color: rgba(0, 0, 0, 0.226);
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
 }
 
 nav {
-  /* margin-left: 25px; */
   width: 100%;
   background-color: rgb(255, 255, 255);
-  /* padding-left: 30px; */
   padding-right: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .logo {
   margin-left: 30px;
   display: inline-block;
+  padding-right: 15%;
 }
 
 .nav-links {
@@ -182,6 +188,7 @@ nav {
   from {
     opacity: 0.4;
   }
+
   to {
     opacity: 1;
   }
@@ -207,8 +214,7 @@ nav {
   text-align: center;
 }
 
-.alert {
-}
+.alert {}
 
 .alert p {
   color: #000000;
@@ -227,8 +233,7 @@ nav {
   padding: 10px;
 }
 
-#exit {
-}
+#exit {}
 
 #ad01 {
   margin-left: 3%;
@@ -315,110 +320,108 @@ hr {
 }
 
 #wbox {
-  background: repeating-linear-gradient(
-    45deg,
-    yellow,
-    yellow 10px,
-    black 10px,
-    black 20px
-    );
-    width: 95%;
-    max-width: 1140px;
-    text-align: center;
-    margin: auto;
-    border-radius: 5px;
-    color: white;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #wbox p {
-    background-color: #ffbb00;
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-weight: bold;
-  }
+  background: repeating-linear-gradient(45deg,
+      yellow,
+      yellow 10px,
+      black 10px,
+      black 20px);
+  width: 95%;
+  max-width: 1140px;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  color: white;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  #mbox p {
-    background-color: #ff0000;
-    border-radius: 5px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: 900;
-  }
-  
-  #mbox {
-    width: 95%;
-    max-width: 1140px;
-    text-align: center;
-    margin: auto;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  }
-  
-  #nbox p {
-    background-color: #55d638;
-    border-radius: 5px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  
-  #nbox {
-    width: 95%;
-    max-width: 1140px;
-    text-align: center;
-    margin: auto;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  }
+#wbox p {
+  background-color: #ffbb00;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
+}
 
-  #uxbox p {
-    background-color: #000000;
-    border-radius: 5px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: 900;
-  }
-  
-  #uxbox {
-    width: 95%;
-    max-width: 1140px;
-    text-align: center;
-    margin: auto;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  }
+#mbox p {
+  background-color: #ff0000;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
 
-  #ubox p {
-    background-color: #000000;
-    border-radius: 5px;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: 900;
-  }
-  
-  #ubox {
-    width: 95%;
-    max-width: 1140px;
-    text-align: center;
-    margin: auto;
-    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  }
+#mbox {
+  width: 95%;
+  max-width: 1140px;
+  text-align: center;
+  margin: auto;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
 
-  #tail p {
-    margin-top: -1px;
-    text-align: center;
-    color: #717171;
-    font-size: 12px;
-  }
-  
-  .new {
-    border: 1px solid;
-    border-radius: 4px;
+#nbox p {
+  background-color: #55d638;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#nbox {
+  width: 95%;
+  max-width: 1140px;
+  text-align: center;
+  margin: auto;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+#uxbox p {
+  background-color: #000000;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
+
+#uxbox {
+  width: 95%;
+  max-width: 1140px;
+  text-align: center;
+  margin: auto;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+#ubox p {
+  background-color: #000000;
+  border-radius: 5px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 900;
+}
+
+#ubox {
+  width: 95%;
+  max-width: 1140px;
+  text-align: center;
+  margin: auto;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+
+#tail p {
+  margin-top: -1px;
+  text-align: center;
+  color: #717171;
+  font-size: 12px;
+}
+
+.new {
+  border: 1px solid;
+  border-radius: 4px;
   color: #d8d8d8;
 }
 
@@ -544,6 +547,7 @@ title {
 .sub-content {
   margin-left: 3px;
   width: 11%;
+  max-width: 200px;
 }
 
 .best .list p::before {

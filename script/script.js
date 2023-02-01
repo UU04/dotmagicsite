@@ -71,10 +71,12 @@ function off() {
 
 function widthFx() {
   if(window.innerWidth <resizelimit){
-    on();
+    // on();
+    document.getElementsByClassName('sub-content')[0].style.display = "none";
   }
   if(window.innerWidth >= resizelimit){
-    off();
+    // off();
+    document.getElementsByClassName('sub-content')[0].style.display = "block";
   }
 }
 
