@@ -214,8 +214,6 @@ nav {
   text-align: center;
 }
 
-.alert {}
-
 .alert p {
   color: #000000;
   font-size: 18px;
@@ -232,8 +230,6 @@ nav {
   border: 3px solid #d3be00;
   padding: 10px;
 }
-
-#exit {}
 
 #ad01 {
   margin-left: 3%;
@@ -529,6 +525,7 @@ hr {
 .best p {
   color: #000000;
   font-size: 14px;
+  margin-bottom: -6px;
 }
 
 .best title {
