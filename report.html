@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="css/report.css" />
+  <head>
+    <meta name="description" content="Webpage description goes here" />
+    <meta charset="utf-8" />
+    <title>Team Dotmagic | Main Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="" />
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+
+  <body>
+    <h1 class="indent">● Live Report</h1>
+    
+    <form>
+      <div class="num1 tool">
+        <a class="item">
+          Type:
+          <select id="select-menu">
+            <option value="service" selected="selected">Service Interruption</option>
+            <option value="player">Player Report</option>
+            <option value="copyright">Copyrights</option>
+            <option value="etc">other</option>
+          </select>
+        </a>
+        <a class="item">
+          Server
+          <select id="select-menu">
+            <option value="selected">America Server</option>
+            <option value="selected">Asia Server</option>
+            <option value="selected">Global(other)</option>
+          </select>
+        </a>
+        
+        <a class="item">User Key: <input type="text"><button style="margin-left: 5px;">Validate</button></a>
+        <p style="margin-top: 15px;">*User Key is only used to check authorities of user.</p>
+        <p>*Once published, you cannot make changes.</p>
+        <p>*Multiple false reports can lead to account bans.</p>
+      </form>
+
+      <div class="num2 tool" style="margin-top: 15px;">
+        <a><input type="checkbox">Important(Security, Hack player)</a>
+      </div>
+
+      <div class="input">
+        <textarea id="text" name="Text1" cols="40" rows="5"></textarea>
+      </div>
+      <button>Publish</button>
+    </div>
+  </body>
+
+  <!-- <script src="/script.js"></script> -->
+</html>

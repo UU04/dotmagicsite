@@ -3,6 +3,29 @@
   src: url("./font/강원교육모두-Bold.woff") format("woff");
 }
 
+p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+*{
+  font-size: 20px;
+}
+
+.indent{
+  padding-left: 15px;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem 5rem 5rem 2rem;
+  width: fit-content;
+  border: 1px solid;
+  border-radius: 3px;
+
+}
+
 html,
 body {
   width: 100%;

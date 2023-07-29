@@ -75,4 +75,4 @@ function mode(n){
   }
 }
 
-mode(dev)
+mode(3)

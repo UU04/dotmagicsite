@@ -1,44 +1,10 @@
-nav {
-    /* margin-left: 25px; */
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    /* padding-left: 30px; */
-    padding-right: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    margin-left: 30px;
-    display: inline-block;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-  }
-  
-  .nav-item a {
-    font-family: "강원교육모두";
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-  
-  .nav-item:hover {
-    background-color: white;
-  }
-  
-  .nav-item:hover a {
-    color: rgb(255, 145, 0);
-  }
-  
-  .logo img {
-    width: 175px;
-    vertical-align: middle;
-  }
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: lightgray;
+  padding-bottom: 20px;
+}
   
   * {
     user-select: none;
