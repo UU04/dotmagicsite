@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "강원교육모두";
+  src: url("./font/강원교육모두-Bold.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+nav {
+  /* margin-left: 25px; */
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  /* padding-left: 30px; */
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white {
+  color: white;
+}
+
+p.indent {
+  text-indent: 30px;
+}
+
+.logo img {
+  width: 175px;
+  vertical-align: middle;
+}
+
+#tail p {
+  margin-top: -1px;
+  text-align: center;
+  color: #717171;
+  font-size: 12px;
+}
+
+.deco {
+  margin-top: 3rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+}
+
+.deco .container {
+  width: 100%;
+  height: 200px;
+  background-image: url("/dotmagicsite-master/image/제목\ 없음-1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.deco .cover #title title {
+  display: block;
+  font-size: 32px;
+}
+
+.deco .cover {
+  width: 100%; /* Full width (cover the whole page) */
+  height: 200px; /* Full height (cover the whole page) */
+  padding-top: 10px;
+  background-image: url("/dotmagicsite-master/image/제목\ 없음-1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.cover #title {
+  margin-top: 30px;
+}
+
+.cover .caption {
+  margin-top: 40px;
+}
+
+#last {
+  margin-top: -1em;
+}
+
+/* tiles the whole div configuration */
+
+.tiles {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#canvas {
+  width: 250px;
+  /* Change the width to resize image content  */
+}
+
+.box {
+  height: 250px;
+  border: 2px solid #cdcdcd;
+  padding: 2px;
+}
+
+/* tile  */
+
+.tile {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.tile .details {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tile .details .title {
+  margin-top: 10px;
+  font-size: 30px;
+  display: block;
+  font-weight: bold;
+}
+
+.details .bar {
+  background-color: #717171;
+  border-radius: 0 3px;
+  margin-left: 40px;
+  margin-top: -1.5em;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+}
+
+.tile .details .down{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+/* 5줄 까지만 6줄 부터는 빡셈. */
+.tile .details .down p{
+  margin-bottom: -15px;
+}
+
+.tools {
+  margin-top: 17.5px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.tools button {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 90%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
